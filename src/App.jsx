@@ -1,12 +1,12 @@
-import React from "react"
-
+import React from "react";
+import OuterContainer from "./components/OuterContainer";
 
 function App() {
   return (
     <>
-     <h1 className="bg-blue-500 text-red-400">AirDropX</h1>
+      <OuterContainer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
